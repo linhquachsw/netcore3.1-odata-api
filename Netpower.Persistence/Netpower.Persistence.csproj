@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.17" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Netpower.Contracts\Netpower.Contracts.csproj" />
+    <ProjectReference Include="..\Netpower.Core\Netpower.Core.csproj" />
+    <ProjectReference Include="..\Netpower.Migrations\Netpower.Migrations.csproj" />
+  </ItemGroup>
+
+</Project>
