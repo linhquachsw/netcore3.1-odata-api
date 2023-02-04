@@ -1,6 +1,6 @@
-# ODataHeroes - ASP.NET Core OData Boilerplate
+# ASP.NET Core OData Boilerplate
 
-ODataHeroes is a boilerplate solution, built to demonstrate OData API implementation in an ASP.NET Core (.NET Core 3.1) API
+This is a boilerplate solution, built to demonstrate OData API implementation in an ASP.NET Core (.NET Core 3.1) API
 
 # What is OData?
 
